@@ -49,7 +49,7 @@ const LayerControl = ({ layerId }: LayerControlProps) => {
 							type="range"
 							min="0"
 							max="1"
-							step="0.1"
+							step="0.01"
 							value={layer.opacity}
 							onChange={handleOpacityChange}
 							disabled={!layer.enabled}
